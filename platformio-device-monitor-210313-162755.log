@@ -1,0 +1,85 @@
+E (19719) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19719) task_wdt:  - IDLE0 (CPU 0)
+E (19719) task_wdt: Tasks currently running:
+E (19719) task_wdt: CPU 0: LoopFOC
+E (19719) task_wdt: CPU 1: move motors
+E (19719) task_wdt: Aborting.
+abort() was called at PC 0x400e614b on core 0
+
+ELF file SHA256: 0000000000000000
+
+Backtrace: 0x4008586c:0x3ffbee90 0x40085ae1:0x3ffbeeb0 0x400e614b:0x3ffbeed0 0x40084629:0x3ffbeef0 0x4000bfed:0x3ffb45a0 0x40087c01:0x3ffb45b0 0x400d9295:0x3ffb45d0 0x400d3c5d:0x3ffb4600 0x400d382e:0x3ffb4630 0x400d2a4e:0x3ffb4670 0x400d2ac7:0x3ffb46a0 0x400d2494:0x3ffb46d0 0x40086ae1:0x3ffb46f0
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+Initializing I2C devices...
+set clock source
+set full scale gyro
+set full scale accel
+set sleep
+remove sleep
+Testing device connections...
+MPU6050 connection successful
+Initializing DMP...
+
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -1538,   240,   1213,   1,   -31,   21
+Enabling DMP...
+Enabling interrupt detection (Arduino external interrupt 4)...
+DMP ready! Waiting for first interrupt...
+2.91
+-1
+3.33
+1
+Motor ready.
+E (19719) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19719) task_wdt:  - IDLE0 (CPU 0)
+E (19719) task_wdt: Tasks currently running:
+E (19719) task_wdt: CPU 0: LoopFOC
+E (19719) task_wdt: CPU 1: move motors
+E (19719) task_wdt: Aborting.
+abort() was called at PC 0x400e614b on core 0
+
+ELF file SHA256: 0000000000000000
+
+Backtrace: 0x4008586c:0x3ffbee90 0x40085ae1:0x3ffbeeb0 0x400e614b:0x3ffbeed0 0x40084629:0x3ffbeef0 0x4000bfed:0x3ffb45a0 0x40087c01:0x3ffb45b0 0x400d9295:0x3ffb45d0 0x400d3c2b:0x3ffb4600 0x400d382e:0x3ffb4630 0x400d2a4e:0x3ffb4670 0x400d2ac7:0x3ffb46a0 0x400d2494:0x3ffb46d0 0x40086ae1:0x3ffb46f0
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+Initializing I2C devices...
+set clock source
+set full scale gyro
+set full scale accel
+set sleep
+remove sleep
+Testing device connections...
+MPU6050 connection successful
+Initializing DMP...
+
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -1538,   240,   1213,   1,   -31,   21
+Enabling DMP...
+Enabling interrupt detection (Arduino external interrupt 4)...
+DMP ready! Waiting for first interrupt...
